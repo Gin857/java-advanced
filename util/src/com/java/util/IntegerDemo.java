@@ -22,25 +22,6 @@ public class IntegerDemo {
         System.out.println("新版七进制转换"+ dec(31,7));
 
     }
-
-//
-//    private static char[] array = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-//            .toCharArray();
-//
-//    public static String myDec(int num , int redidx) {
-//        // StringBuilder是‘可变的String’ ,
-//        StringBuilder result = new StringBuilder();
-//        // 模拟计算进制的过程
-//        while (num > 0) {
-//            result.insert(0, array[num % redidx]);
-//            num /= redidx;
-//        }
-//        return result.toString();
-//    }
-//    private static String convert (int num ,int radix){
-//        return "";
-//    }
-//
     private static String dec(int unm,int radix){
         //创建一个stringBuffer ,用来存放结果字符串
         StringBuffer stringBuffer = new StringBuffer();

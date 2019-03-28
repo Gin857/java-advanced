@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91ec165c-6586-4d42-9ff9-09ff362896e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/src/com/java/util/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/com/java/util/ArticleListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/com/java/util/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/com/java/util/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/com/java/util/player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection-study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection-study/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/collenction-stydy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/list/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/map/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/map/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/set/HashMaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/set/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/set/TreeSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/test/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/test/GoodsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/src/com/java/util/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/java/util/player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +32,14 @@
     <session id="1460167792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,7 +51,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,36 +63,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4333" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="JAVA" value="4339" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Article.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-830">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/ArticleListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,17 +86,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/util/src/com/java/util/Hello.java" />
-        <option value="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/MathDemo.java" />
-        <option value="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandowColor.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandomColor.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/ListTest.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/Ball.java" />
-        <option value="$PROJECT_DIR$/util/src/com/java/util/player.java" />
         <option value="D:/KSWJJ/28000001/Java_1.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/Article.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/ArticleListTest.java" />
+        <option value="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" />
+        <option value="$PROJECT_DIR$/util/src/com/java/util/player.java" />
+        <option value="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" />
       </list>
     </option>
   </component>
@@ -136,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,16 +146,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="ArticleListTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552917282647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553403142276" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -186,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArtcleListTest">
+  <component name="RunManager" selected="Application.player">
     <configuration name="ArtcleListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.util.ArtcleListTest" />
       <module name="util" />
@@ -261,11 +260,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArtcleListTest" />
         <item itemvalue="Application.player" />
+        <item itemvalue="Application.RandomDemo" />
+        <item itemvalue="Application.ArtcleListTest" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.RandomColor" />
-        <item itemvalue="Application.RandomDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +282,18 @@
       <workItem from="1552392325025" duration="1873000" />
       <workItem from="1552895109267" duration="5482000" />
       <workItem from="1552911025734" duration="3315000" />
-      <workItem from="1552916314154" duration="1220000" />
+      <workItem from="1552916314154" duration="1259000" />
+      <workItem from="1552949842249" duration="45000" />
+      <workItem from="1552955354580" duration="640000" />
+      <workItem from="1552956016448" duration="2000" />
+      <workItem from="1552963884565" duration="599000" />
+      <workItem from="1552965908145" duration="169000" />
+      <workItem from="1552970235711" duration="599000" />
+      <workItem from="1553036683865" duration="708000" />
+      <workItem from="1553056315704" duration="340000" />
+      <workItem from="1553402811639" duration="334000" />
+      <workItem from="1553498966560" duration="17000" />
+      <workItem from="1553499022881" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary=" add changes">
       <created>1552393684744</created>
@@ -292,17 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1552393684744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="今日">
+      <created>1552917554707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552917554707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27697000" />
+    <option name="totallyTimeSpent" value="31233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +348,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.31326646" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3400223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +386,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" add changes" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add changes" />
+    <MESSAGE value="今日" />
+    <option name="LAST_COMMIT_MESSAGE" value="今日" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Hello.java" />
@@ -382,10 +399,34 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/WeChat Files/xupengqishi/Files/RandomColor.java" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/xupengqishi/Files/Article.java" />
+    <entry file="file://D:/KSWJJ/28000001/Java_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/xupengqishi/Files/Article(1).java" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/xupengqishi/Files/ArtcleListTest.java" />
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="163">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -396,86 +437,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java">
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="180">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomColor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        <state relative-caret-position="1843">
+          <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/xupengqishi/Files/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/KSWJJ/28000001/Java_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/xupengqishi/Files/Article(1).java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="25" selection-start-line="1" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/xupengqishi/Files/ArtcleListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-830">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="462">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/ArticleListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="-665">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>

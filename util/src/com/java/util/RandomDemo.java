@@ -12,7 +12,7 @@ public class RandomDemo {
         //随机生成5以内的数，包括5
         Random random = new Random();
         //填5了就不会产生5,  0 到5 的输出
-        int num = random.nextInt(6);
+        int num = random.nextInt(3);
         System.out.println(num);
     }
 

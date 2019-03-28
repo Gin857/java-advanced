@@ -7,7 +7,7 @@ import java.util.List;
 public class player extends Ball {
     public static void main(String[] args){
         List<Ball> list = new ArrayList<>();
-        list.add(new Ball("拉塞尔","指环王",2.0,1.0,2.0));
+        list.add(new Ball("拉塞尔","指环王",.6,1.0,2.0));
         System.out.println("----------NBA历史十大巨星----------");
         System.out.println("球员   绰号   得分   篮板   助攻");
         int len = list.size();
