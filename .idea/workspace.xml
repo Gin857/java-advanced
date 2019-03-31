@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91ec165c-6586-4d42-9ff9-09ff362896e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection-study/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection-study/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/collenction-stydy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/list/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/map/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/map/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/set/HashMaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/set/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/set/TreeSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/test/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/com/soft1841/test/GoodsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/collenction-stydy/src/test/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/io-study/io-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-advanced/io-study/src/com/io/study/FolderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/com/java/util/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/java/util/player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collection-study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-advanced/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-advanced/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-advanced/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +20,14 @@
     <session id="1460167792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -115,10 +103,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="724" />
+    <option name="y" value="57" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -137,28 +126,14 @@
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="ArticleListTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,12 +141,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553403142276" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-advanced" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStady\java-advanced\util\src\com\java\util" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -294,6 +275,9 @@
       <workItem from="1553402811639" duration="334000" />
       <workItem from="1553498966560" duration="17000" />
       <workItem from="1553499022881" duration="44000" />
+      <workItem from="1554043962661" duration="27000" />
+      <workItem from="1554044002601" duration="24000" />
+      <workItem from="1554044226192" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary=" add changes">
       <created>1552393684744</created>
@@ -313,12 +297,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31233000" />
+    <option name="totallyTimeSpent" value="31907000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="724" y="57" width="974" height="976" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33260393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -529,7 +513,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
