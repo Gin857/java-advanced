@@ -1,8 +1,6 @@
 package week1;
 
 import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
-
-import javax.sound.midi.Soundbank;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

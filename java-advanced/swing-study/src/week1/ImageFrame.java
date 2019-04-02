@@ -12,12 +12,10 @@ import java.io.*;
  * 多选图片卡片布局
  */
 public class ImageFrame extends JFrame implements ActionListener {
-    private JButton chooserBtn, preBtn, nextBtn;
+    private JButton chooserBtn, preBtn, nextBtn,firstBtn,lastBtn;
     private JFileChooser fileChooser;
     private JPanel centerPanel, bottomPanel;
     private CardLayout cardLayout;
-    private Icon icon;
-    private JLabel imageLabel;
 
     public ImageFrame() {
         init();
@@ -32,16 +30,22 @@ public class ImageFrame extends JFrame implements ActionListener {
 
     public void init() {
         bottomPanel = new JPanel();
-        chooserBtn = new JButton("图片选择");
         add(chooserBtn, BorderLayout.NORTH);
-        chooserBtn.addActionListener(this);
+        chooserBtn = new JButton("图片选择");
         preBtn = new JButton("上一张");
         nextBtn = new JButton("下一张");
+        firstBtn = new JButton("第一张");
+        lastBtn = new JButton("最后一张");
+        chooserBtn.addActionListener(this);
         nextBtn.addActionListener(this);
         preBtn.addActionListener(this);
+        firstBtn.addActionListener(this);
+        lastBtn.addActionListener(this);
         bottomPanel.add(chooserBtn);
+        bottomPanel.add(firstBtn);
         bottomPanel.add(preBtn);
         bottomPanel.add(nextBtn);
+        bottomPanel.add(lastBtn);
         add(bottomPanel, BorderLayout.SOUTH);
 
         centerPanel = new JPanel();
@@ -50,8 +54,6 @@ public class ImageFrame extends JFrame implements ActionListener {
         centerPanel.setBackground(new Color(173, 255, 146));
         add(centerPanel);
 
-        imageLabel = new JLabel();
-        add(imageLabel, BorderLayout.CENTER);
     }
 
 
@@ -64,7 +66,6 @@ public class ImageFrame extends JFrame implements ActionListener {
         }
         new ImageFrame();
     }
-
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -83,13 +84,13 @@ public class ImageFrame extends JFrame implements ActionListener {
                     System.out.println(f.getAbsoluteFile());
                     //对每个子文件，创建字节输入流读入字节数组，构建icon，并设置给JLabel
                     try {
+                        byte[] bytes = new byte[(int) f.length()];
                         InputStream in = new FileInputStream(f);
-                        byte[] bytes = null;
-                        bytes = new byte[(int) f.length()];
                         in.read(bytes);
-                        icon = new ImageIcon(bytes);
-                        imageLabel.setIcon(icon);
-                        add(imageLabel,BorderLayout.CENTER);
+                        Icon  icon = new ImageIcon(bytes);
+                        JLabel imageLable = new JLabel();
+                        imageLable.setIcon(icon);
+                        centerPanel.add(imageLable);
                     } catch (IOException e1) {
                         JOptionPane.showMessageDialog(null, "IO操作异常");
                     }
@@ -97,10 +98,17 @@ public class ImageFrame extends JFrame implements ActionListener {
             }
         }
         if (e.getSource() == preBtn) {
-            System.out.println("2");
+            cardLayout.previous(centerPanel);
         }
         if (e.getSource() == nextBtn) {
-            System.out.println("3");
+            cardLayout.next(centerPanel);
         }
+        if (e.getSource() == firstBtn) {
+            cardLayout.first(centerPanel);
+        }
+        if (e.getSource() == lastBtn) {
+            cardLayout.last(centerPanel);
+        }
+
     }
 }

@@ -44,7 +44,7 @@ public class CardLayoutTest extends JFrame implements ActionListener {
         nextButton = new JButton("下一张");
         ButtonPanel.add(preButton);
         ButtonPanel.add(nextButton);
-        add(ButtonPanel, BorderLayout.SOUTH);
+        add(ButtonPanel, BorderLayout.WEST);
         preButton.addActionListener(this);
         nextButton.addActionListener(this);
     }

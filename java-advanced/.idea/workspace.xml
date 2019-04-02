@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2f3bf-a956-4021-9307-f78c9ccfca67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/io-study/src/com/io/study/ScannerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swing-study/src/week1/ImageFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swing-study/src/week1/JFileChooserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comprehensive/Comprehensive.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comprehensive/jar/beautyeye_lnf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing-study/src/zhonghe1/GoodsClassFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io-study/src/com/io/study/OutputEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-study/src/com/io/study/OutputEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collenction-stydy/src/study/ImageFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/collenction-stydy/src/study/ImageFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing-study/src/week1/CardLayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/week1/CardLayoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing-study/src/week1/ImageFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/week1/ImageFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swing-study/src/week1/JFileChooserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/week1/JFileChooserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,36 +22,77 @@
     <session id="1364232472">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="77" />
+          <entry key="JAVA" value="109" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10965" />
-          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="JAVA" value="13340" />
+          <entry key="PLAIN_TEXT" value="74" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swing-study/src/zhonghe1/GoodsClassFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2172">
+              <caret line="145" selection-start-line="145" selection-start-column="2" selection-end-line="146" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#GoodsClassFrame#0" />
+                <marker date="1554214893097" expanded="true" signature="3993:4190" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swing-study/src/week1/ImageFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="844">
+              <caret line="92" column="52" lean-forward="true" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swing-study/src/week1/JFileChooserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#JFileChooserTest#0;class#JFileChooserTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,12 +130,15 @@
         <option value="$PROJECT_DIR$/io-study/src/com/io/study/FolderTest.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/io/study/TextReaderFrame.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/io/study/TxtReaderFrame.java" />
-        <option value="$PROJECT_DIR$/swing-study/src/week1/CardLayoutTest.java" />
-        <option value="$PROJECT_DIR$/collenction-stydy/src/study/ImageFrame.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/io/study/ScannerDemo.java" />
-        <option value="$PROJECT_DIR$/swing-study/src/week1/JFileChooserTest.java" />
+        <option value="$PROJECT_DIR$/Comprehensive/src/zhonghe1/GoodsClass.java" />
+        <option value="$PROJECT_DIR$/Comprehensive/src/zhonghe1/GoodsClassFrame.java" />
+        <option value="$PROJECT_DIR$/swing-study/src/week1/CardLayoutTest.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/io/study/OutputEx.java" />
         <option value="$PROJECT_DIR$/swing-study/src/week1/ImageFrame.java" />
+        <option value="$PROJECT_DIR$/collenction-stydy/src/study/ImageFrame.java" />
+        <option value="$PROJECT_DIR$/swing-study/src/week1/JFileChooserTest.java" />
+        <option value="$PROJECT_DIR$/swing-study/src/zhonghe1/GoodsClassFrame.java" />
       </list>
     </option>
   </component>
@@ -110,9 +158,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-37" />
-    <option name="y" value="24" />
-    <option name="width" value="1000" />
+    <option name="x" value="411" />
+    <option name="width" value="1562" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -123,7 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,11 +196,6 @@
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="swing-study" type="462c0819:PsiDirectoryNode" />
-              <item name="jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -162,17 +204,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zhonghe1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554170193362" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554214902165" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -183,10 +231,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="map" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStady\java-advanced\java-advanced\swing-study\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStady\java-advanced\java-advanced\Comprehensive\jar" />
       <recent name="D:\JavaStady\java-advanced\java-advanced\swing-study\src\img" />
       <recent name="D:\JavaStady\java-advanced\java-advanced\swing-study\jar" />
     </key>
@@ -194,8 +243,8 @@
       <recent name="com.io.study" />
       <recent name="week1" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaStady\java-advanced\java-advanced\swing-study\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="map" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,13 +259,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageFrame">
-    <configuration name="CardLayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.CardLayoutTest" />
+  <component name="RunManager" selected="Application.GoodsClassFrame (1)">
+    <configuration name="GoodsClassFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zhonghe1.GoodsClassFrame" />
       <module name="swing-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="zhonghe1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.ImageFrame" />
+      <module name="collenction-stydy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,33 +325,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TxtReaderFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.io.study.TxtReaderFrame" />
-      <module name="io-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.io.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TxtReaderFrame" />
-      <item itemvalue="Application.CardLayoutTest" />
-      <item itemvalue="Application.JFileChooserTest" />
-      <item itemvalue="Application.ScannerDemo" />
       <item itemvalue="Application.ImageFrame" />
+      <item itemvalue="Application.GoodsClassFrame (1)" />
+      <item itemvalue="Application.ImageFrame (1)" />
+      <item itemvalue="Application.ScannerDemo" />
+      <item itemvalue="Application.JFileChooserTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImageFrame" />
+        <item itemvalue="Application.GoodsClassFrame (1)" />
         <item itemvalue="Application.JFileChooserTest" />
+        <item itemvalue="Application.ImageFrame" />
         <item itemvalue="Application.ScannerDemo" />
-        <item itemvalue="Application.CardLayoutTest" />
-        <item itemvalue="Application.TxtReaderFrame" />
+        <item itemvalue="Application.ImageFrame (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +373,9 @@
       <workItem from="1554103236195" duration="6378000" />
       <workItem from="1554123823110" duration="495000" />
       <workItem from="1554128422252" duration="2050000" />
-      <workItem from="1554162394463" duration="8423000" />
+      <workItem from="1554162394463" duration="11984000" />
+      <workItem from="1554177310118" duration="10773000" />
+      <workItem from="1554206642525" duration="6665000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1553731912271</created>
@@ -354,16 +405,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554130477727</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="卡片布局">
+      <created>1554171497625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554171497625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60063000" />
+    <option name="totallyTimeSpent" value="81062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,7 +431,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25306576" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29988852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1962096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,25 +452,25 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33110368" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39910814" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36789298" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1962096" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -521,20 +580,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/swing-study/src/img/LoginFrame.java" />
-    <entry file="file://$PROJECT_DIR$/swing-study/src/week1/LoginFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swing-study/src/week1/BoxLayoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1421">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collenction-stydy/src/test/test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -578,24 +623,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collenction-stydy/src/study/ImageFrame.java">
+    <entry file="file://$PROJECT_DIR$/Comprehensive/src/zonghe1.java" />
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/TxtReaderFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="33" />
+        <state relative-caret-position="215">
+          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/FolderTest.java">
+    <entry file="file://$PROJECT_DIR$/swing-study/src/week1/BoxLayoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/Toolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="1110" selection-start-line="1110" selection-end-line="1110" />
+          <folding>
+            <element signature="e#47793#47794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swing-study/src/week1/CardLayoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        <state relative-caret-position="379">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collenction-stydy/src/study/ImageFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swing-study/src/week1/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/ScannerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -604,36 +691,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/OutputEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="36">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/TxtReaderFrame.java">
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/FolderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TxtReaderFrame#0;class#TxtReaderFrame#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/ScannerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swing-study/src/week1/ImageFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="87" column="59" lean-forward="true" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+        <state relative-caret-position="844">
+          <caret line="92" column="52" lean-forward="true" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,11 +715,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swing-study/src/week1/JFileChooserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="271">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#JFileChooserTest#0;class#JFileChooserTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swing-study/src/zhonghe1/GoodsClassFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2172">
+          <caret line="145" selection-start-line="145" selection-start-column="2" selection-end-line="146" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#GoodsClassFrame#0" />
+            <marker date="1554214893097" expanded="true" signature="3993:4190" ph="..." />
           </folding>
         </state>
       </provider>
@@ -703,11 +788,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>swing-study</last-edited>
+          <last-edited>Comprehensive</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

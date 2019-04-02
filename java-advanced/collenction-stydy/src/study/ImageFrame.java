@@ -64,6 +64,8 @@ public class ImageFrame extends JFrame {
         icon = new ImageIcon(bytes);
         imgLabel.setIcon(icon);
         add(imgLabel,BorderLayout.WEST);
+
+
         //系统的的时间
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         String date = format.format(new Date());
