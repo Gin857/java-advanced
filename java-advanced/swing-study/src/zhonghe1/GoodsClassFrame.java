@@ -140,6 +140,8 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
             try {
                 InputStream inputStream = new FileInputStream(file);
                 Scanner scanner = new Scanner(inputStream);
+
+
                 imageLable.setText(scanner.nextLine());
                 cardPanelC.add(imageLable);
             } catch (IOException e1) {
