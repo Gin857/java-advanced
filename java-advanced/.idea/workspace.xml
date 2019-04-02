@@ -38,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13342" />
+          <entry key="JAVA" value="13344" />
           <entry key="PLAIN_TEXT" value="134" />
         </counts>
       </usages-collector>
@@ -49,11 +49,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swing-study/src/zhonghe1/GoodsClassFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+            <state relative-caret-position="468">
+              <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#main#0;class#GoodsClassFrame#0" />
+                <element signature="e#3385#3827#0" expanded="true" />
+                <element signature="e#3826#3827#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554215419394" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554215515402" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -367,7 +369,7 @@
       <workItem from="1554128422252" duration="2050000" />
       <workItem from="1554162394463" duration="11984000" />
       <workItem from="1554177310118" duration="10773000" />
-      <workItem from="1554206642525" duration="7055000" />
+      <workItem from="1554206642525" duration="7348000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1553731912271</created>
@@ -411,11 +413,32 @@
       <option name="project" value="LOCAL" />
       <updated>1554215029303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changing and comprehensive ,Please">
+      <created>1554215358049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554215358049</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changing and comprehensive ,Please">
+      <created>1554215402995</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554215402995</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changing and comprehensive ,Please">
+      <created>1554215500770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554215500770</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81452000" />
+    <option name="totallyTimeSpent" value="81745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -726,11 +749,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swing-study/src/zhonghe1/GoodsClassFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        <state relative-caret-position="468">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#main#0;class#GoodsClassFrame#0" />
+            <element signature="e#3385#3827#0" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
           </folding>
         </state>
       </provider>
