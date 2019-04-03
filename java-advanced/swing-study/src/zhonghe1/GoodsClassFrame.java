@@ -4,9 +4,7 @@ package zhonghe1;
 
 import java.awt.event.ActionListener;
 
- * 综合练习
- * @author xupeng
- * 2019.4.2
+
  */
 public class GoodsClassFrame emplements ActionListener {
     private GridLayout gridLayoutW, gridLayoutC;
