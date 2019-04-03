@@ -9,10 +9,11 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.*;
-import java.util.Scanner;
-
+import javax.swing.ImageIcon;
 /**
- * xp
+ * 综合练习
+ * @author xupeng
+ * 2019.4.2
  */
 public class GoodsClassFrame extends JFrame implements ActionListener {
     private GridLayout gridLayoutW, gridLayoutC;
@@ -26,7 +27,8 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
     public GoodsClassFrame() {
         init();
         setTitle("暂无名称");
-        setSize(500, 800);
+        setSize(1900, 1080);
+//        setUndecorated(true);
         setLocationRelativeTo(null);
 //        setResizable(false);
         setVisible(true);
@@ -39,6 +41,8 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
         jScrollPane = new JScrollPane();
         gridLayoutW = new GridLayout(4, 1);
         gridLayoutC = new GridLayout(3, 3);
+        //字体
+        Font font = new Font("微软雅黑",Font.BOLD,18);
         //面板改用grid
         cardPanelW.setLayout(gridLayoutW);
         cardPanelC.setLayout(gridLayoutC);
@@ -56,10 +60,14 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
         cardPanelW.setBackground(new Color(220, 220, 220));
         jScrollPane.setBackground(new Color(250, 235, 215));
         //实现按钮，并设置名称
-        firstBtn = new JButton("第一类");
-        secondBtn = new JButton("第二类");
+        firstBtn = new JButton("宠物类");
+        secondBtn = new JButton("汽车类");
         thirdBtn = new JButton("第三类");
-        fourBtn = new JButton("退出");
+        fourBtn = new JButton("退    出");
+        firstBtn.setFont(font);
+        secondBtn.setFont(font);
+        thirdBtn.setFont(font);
+        fourBtn.setFont(font);
         //监听
         firstBtn.addActionListener(this);
         secondBtn.addActionListener(this);
@@ -70,10 +78,8 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
         cardPanelW.add(secondBtn);
         cardPanelW.add(thirdBtn);
         cardPanelW.add(fourBtn);
-
+        add(fourBtn,BorderLayout.NORTH);
         add(cardPanelW, BorderLayout.WEST);
-//        cardPanelC.add(jScrollPane);
-//        jScrollPane.add(cardPanelC);
         add(cardPanelC, BorderLayout.CENTER);
     }
 
@@ -93,7 +99,7 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
         //后台监听测试
 //        System.out.println("1");
         if (e.getSource() == firstBtn) {
-            File file = new File("D:\\test");
+            File file = new File("D:\\simulation\\animal");
             File[] fs = file.listFiles();
             //按钮点击提示
             System.out.println("按钮点击成功！");
@@ -114,8 +120,8 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
                             @Override
                             public void mouseClicked(MouseEvent e) {
                                 JOptionPane.showMessageDialog(null,
-                                        "抱歉！此商品已下架", "提示消息!",
-                                        JOptionPane.ERROR_MESSAGE);
+                                        "暂无详细介绍哦！", "界面提示!",
+                                        JOptionPane.INFORMATION_MESSAGE);
                                 System.out.println("点击了图片");
                             }
                         });
@@ -130,25 +136,50 @@ public class GoodsClassFrame extends JFrame implements ActionListener {
         }
 
 
-        fileChooser = new JFileChooser();
-        fileChooser.setCurrentDirectory(new File("D:\\test"));
-        int result = fileChooser.showOpenDialog(null);
-        if (e.getSource() == secondBtn & result == JFileChooser.APPROVE_OPTION) {
-            File file = fileChooser.getSelectedFile();
-            //将选择的文件的绝对路径显示==测试
-//            imageLable.setText(file.getAbsolutePath());
-            try {
-                InputStream inputStream = new FileInputStream(file);
-                Scanner scanner = new Scanner(inputStream);
-
-
-                imageLable.setText(scanner.nextLine());
-                cardPanelC.add(imageLable);
-            } catch (IOException e1) {
-                e1.printStackTrace();
+        if (e.getSource() == secondBtn ) {
+            fileChooser = new JFileChooser();
+            fileChooser.setCurrentDirectory(new File("D:\\simulation\\car"));
+            fileChooser.setMultiSelectionEnabled(true);
+            int result = fileChooser.showOpenDialog(null);
+            imageLable=null;
+            if (result == JFileChooser.APPROVE_OPTION){
+                File[] files = fileChooser.getSelectedFiles();
+                System.out.println(files.length);
+                for (File f : files) {
+                    System.out.println(f.getAbsoluteFile());
+                    //对每个子文件，创建字节输入流读入字节数组，构建icon，并设置给JLabel
+                    try {
+                        byte[] bytes = new byte[(int) f.length()];
+                        InputStream in = new FileInputStream(f);
+                        in.read(bytes);
+                        Icon  icon = new ImageIcon(bytes);
+                        JLabel imageLable = new JLabel();
+                        imageLable.addMouseListener(new MouseAdapter() {
+                            @Override
+                            public void mouseClicked(MouseEvent e) {
+//                                for (int i= 0;i<f.length();i++){
+//                                     imageIcon = new ImageIcon("D:\\simulation\\car\\"+i+".jpg");
+//                                    JOptionPane.showMessageDialog(null,
+//                                            imageIcon,"提示消息!",
+//                                            JOptionPane.INFORMATION_MESSAGE);
+//                                }
+                                for (int k = 0 ;k<f.length();k++){
+                                  ImageIcon  imageIcon = new ImageIcon("D:\\simulation\\car\\"+k+".jpg");
+                                    JOptionPane.showMessageDialog(null,
+                                            imageIcon,"提示消息!",
+                                            JOptionPane.INFORMATION_MESSAGE);
+                                    System.out.println("点击了图片");
+                                }
+                            }
+                        });
+                        imageLable.setIcon(icon);
+                        cardPanelC.add(imageLable);
+                    } catch (IOException e1) {
+                        JOptionPane.showMessageDialog(null, "IO操作异常");
+                    }
+                }
             }
         }
-
 
         if (e.getSource() == fourBtn) {
             this.dispose();
