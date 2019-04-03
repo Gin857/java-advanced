@@ -1,8 +1,6 @@
 package zhonghe1;
 
-import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 
-import javax.swing.*;
 
 import java.awt.event.ActionListener;
 
@@ -13,10 +11,7 @@ import java.awt.event.ActionListener;
 public class GoodsClassFrame emplements ActionListener {
     private GridLayout gridLayoutW, gridLayoutC;
     private JScrollPane jScrollPane;
-    private JPanel cardPanelW, cardPanelC;
-secondBtn, thirdBtn, fourBtn;
-    private JLabel imageLable;
-    private JFileChooser fileChooser;
+ileChooser;
 
 
     public GoodsClassFrame() {
@@ -26,8 +21,7 @@ secondBtn, thirdBtn, fourBtn;
 //        setUndecorated(true);
 eTo(null);
 //        setResizable(false);
-        setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+n(JFrame.DISPOSE_ON_CLOSE);
     }
 
     public void init() {
@@ -37,7 +31,7 @@ eTo(null);
         gridLayoutC = new GridLayout(3, 3);
         //字体
         Font font = new Font("微软雅黑",Font.BOLD,18);
-        //面板改用grid
+
         cardPanelW.setLayout(gridLayoutW);
  utC);
         gridLayoutW.setColumns(30);
@@ -49,11 +43,11 @@ eTo(null);
         gridLayoutW.setRows(5);
         cardPanelC.;
         jScrollPane.setBackground(new Color(250, 235, 215));
-        //实现按钮，并设置名称
+
         firstB
         fourBtn = new JButton("退    出");
         firstBtn.setFont(font);
-        secondBtn.setFont(font);
+
         thirdBtn.setFont(font);
         fourBtn.setFont(font);
         //监听
@@ -63,9 +57,7 @@ eTo(null);
         fourBtn.addActionListener();
         //按钮加入面板
         cardPanelW.add(firstBtn);
-        cardPanelW.add(secondBtn);
-        cardPanelW.add(thirdBtn);
-;
+        cardPanelW
         add(cardPanelC, BorderLayout.CENTER);
     }
 
@@ -76,9 +68,7 @@ eTo(null);
     }
 
     //各类事件的监听与处理
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        //后台监听测试
+    @Ove
 //        System.out.println("1");
         if (e"D:\\simulation\\animal");
             File[] fs = file.listFiles();
@@ -88,8 +78,6 @@ eTo(null);
             for (
                 if (suffixName.equals(".jpg") | suffixName.equals(".png")) {
                     try {
-                        byte[] bytes = new byte[(int) f.length()];
-                        InputStream in = new FileInputStream(f);
 
                             @Override
                             public void mouseClicked(MouseEvent e) {
@@ -106,18 +94,14 @@ eTo(null);
         }
 
 
-        if (e.getSource() == secondBtn ) {
-            fileChooser = new JFileChooser();
-            fileChooser.setCurrentDirectory(new File("D:\\simulation\\car"));
+ile("D:\\simulation\\car"));
             fileChooser.setMultiSelectionEnabled(true);
 ;
                 for (File f : files) {
                     System.out.println(f.getAbsoluteFile());
                     //对每个子文件，创建字节输入流读入字节数组，构建icon，并设置给JLabel
                     try {
-                        byte[] bytes = new byte[(int) f.length()];
-                        InputStream in = new FileInputStream(f);
-                        in.read(bytes);
+
                         Icon  icon = new ImageIcon(bytes);
 
                             @Override
