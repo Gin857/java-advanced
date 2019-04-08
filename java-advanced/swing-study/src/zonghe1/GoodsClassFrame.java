@@ -1,4 +1,4 @@
-package zhonghe1;
+package zonghe1;
 
 import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 
