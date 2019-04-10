@@ -113,8 +113,8 @@ public class ChooserFrame extends JFrame implements ActionListener {
             new Thread(ct).start();
         }
         if (e.getSource() == musicBtn) {
-            RandomPoint randomPoint = new RandomPoint();
-            new Thread(randomPoint).start();
+            music music = new music();
+            new Thread(music).start();
 
         }
         if (e.getSource() == timeBtn) {
@@ -123,7 +123,7 @@ public class ChooserFrame extends JFrame implements ActionListener {
     }
 }
 
-class RandomPoint implements Runnable {
+class music implements Runnable {
     @Override
     public void run() {
         URL url;
