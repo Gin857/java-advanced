@@ -10,7 +10,7 @@ public class NumFrame extends JFrame implements ActionListener {
     private JLabel numberLabel;
     private JLabel timeLabel;
     private JPanel colorJPanel;
-    private JButton jButton;
+    private JButton jButton,pauseBtn;
     private JButton jButton1;
     private JPanel lJPanel;
     private JPanel rLPanel;
@@ -36,10 +36,12 @@ public class NumFrame extends JFrame implements ActionListener {
         cJPanel = new JPanel();
         jButton = new JButton("澳门赌场");
         jButton1 = new JButton("皇冠赌场");
+        pauseBtn = new JButton("点我抽奖");
         cjl = new JLabel("     抽一抽，幸运大奖就到手   ");
         Dimension dimension = new Dimension(400,100);
         jButton.setPreferredSize(dimension);
         jButton1.setPreferredSize(dimension);
+        pauseBtn.setPreferredSize(new Dimension(80,50));
         Font font1 = new Font("微软雅黑",Font.BOLD,70);
         numberLabel.setFont(font1);
         Font font = new Font("微软雅黑",Font.BOLD,20);
@@ -52,7 +54,7 @@ public class NumFrame extends JFrame implements ActionListener {
         cjl.setFont(font3);
         //监听事件
         jButton.addActionListener(this);
-
+        pauseBtn.addActionListener(this);
         //网格面板
 //        add(numberLabel,BorderLayout.CENTER);
         add(timeLabel,BorderLayout.NORTH);
@@ -60,6 +62,7 @@ public class NumFrame extends JFrame implements ActionListener {
         colorJPanel.add(jButton1);
         cJPanel.add(cjl);
         cJPanel.add(numberLabel);
+        cJPanel.add(pauseBtn);
         add(cJPanel,BorderLayout.CENTER);
         add(colorJPanel,BorderLayout.SOUTH);
         add(lJPanel,BorderLayout.EAST);
@@ -94,15 +97,6 @@ public class NumFrame extends JFrame implements ActionListener {
         lThread.setlJPanel(lJPanel);
         lThread.start();
 
-        //图片
-//        URL url =NumFrame.class.getResource("zonghe2/niao.png");
-//        Icon icon = new ImageIcon(url);
-//        picLabel = new JLabel();
-//        picLabel.setIcon(icon);
-//        picLabel.setBounds(10,10,200,50);
-//        PicThread picThread = new PicThread();
-//        picThread.setPicLabel(picLabel);
-//        picThread.start();
 
 
     }
@@ -115,6 +109,8 @@ public class NumFrame extends JFrame implements ActionListener {
         if (e.getSource() == jButton){
             this.dispose();
         }
+        if(e.getSource() ==pauseBtn){
+            System.out.println("1");        }
     }
 }
 

@@ -12,6 +12,11 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JDialog;
 
+/**
+ * 音乐播放器
+ * @author xupeng
+ * 2019.4.12
+ */
 public class MusicPlayer extends JDialog implements Runnable,ItemListener,ActionListener{
     private static final long serialVersionUID = 1L;
     Thread thread;
@@ -22,9 +27,8 @@ public class MusicPlayer extends JDialog implements Runnable,ItemListener,Action
     MusicPlayer(){
         thread=new Thread(this);
         choiceMusic=new JComboBox();
-        choiceMusic.addItem(new File("D:/yy/1.mp3"));
-        choiceMusic.addItem("‪2.wav");
-        choiceMusic.addItem("3.wav");
+        choiceMusic.addItem(new File("D:/yy/1.wav"));
+        choiceMusic.addItem("D:/yy/2.wav");
         choiceMusic.addItemListener(this);
         buttonPlay=new JButton("播放");
         buttonLoop=new JButton("循环");
@@ -79,5 +83,8 @@ public class MusicPlayer extends JDialog implements Runnable,ItemListener,Action
     public static void main(String[] args) {
         MusicPlayer musicplayer=new MusicPlayer();
         musicplayer.setVisible(true);
+        musicplayer.setSize(500,500);
+//        musicplayer.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        musicplayer.setTitle("音乐播放器");
     }
 }

@@ -21,9 +21,10 @@ public class DrawLineThread implements Runnable {
         Random random=new Random();
         while (true){
             try {
-                Thread.sleep(500);
+                Thread.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
+
             }
             Graphics graphics=frame.getGraphics();
             graphics.setColor(colors[random.nextInt(colors.length)]);
