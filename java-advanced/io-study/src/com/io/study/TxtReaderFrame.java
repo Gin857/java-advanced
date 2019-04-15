@@ -64,16 +64,6 @@ public class TxtReaderFrame extends JFrame implements ActionListener {
             in.read(bytes);
             icon = new ImageIcon(bytes);
             imageLabel.setIcon(icon);
-//            InputStream inputStream = new FileInputStream(file);
-//            byte[] bytes = new byte[(int) file.length()];
-//            //读入字符串数组
-//            inputStream.read(bytes);
-//            //使用bytes构建一个新的输出的字符串
-//            String resultStr = new String(bytes);
-//            //将结果放入文本域
-//            contentArea.append(resultStr);
-//            //换行
-//            contentArea.append("\r\n");
 
         } catch (IOException e1) {
             System.out.println("io异常");
