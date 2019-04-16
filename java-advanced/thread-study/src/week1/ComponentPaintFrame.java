@@ -17,7 +17,7 @@ public class ComponentPaintFrame extends JFrame {
         setSize(1000, 600);
         setLocationRelativeTo(null);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public  void  init(){
         JPanel jPanel = new JPanel(){
