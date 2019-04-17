@@ -56,6 +56,7 @@ public class TimerClock extends JFrame {
                 String timeString = sdf.format(date);
                 jLabel.setText(timeString);
                 jPanel.add(jLabel);
+                System.out.println();
                 if(timeString.equals("2019-04-16 09:21:00")){
                     JOptionPane.showMessageDialog(jPanel, "早上好！酒儿.");
                     this.cancel();

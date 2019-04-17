@@ -31,10 +31,12 @@ public class LoginFrame extends JFrame implements ActionListener {
         ShadePanel1 shadePanel = new ShadePanel1();
         shadePanel.setLayout(null);
         shadePanel.setBounds(0, 0, width, height);
+
         ImgPanel imgPanel = new ImgPanel();
         imgPanel.setImgPath("erji1.jpg");
         imgPanel.setLayout(null);
         imgPanel.setBounds(700, 200, 500, 400);
+
         Font font = new Font("楷体", Font.PLAIN, 30);
         accountLabel = new JLabel("账号:");
         accountLabel.setFont(font);
@@ -46,8 +48,6 @@ public class LoginFrame extends JFrame implements ActionListener {
         passwordLabel.setForeground(new Color(2, 2, 2));
         passwordField = new JPasswordField();
         passwordField.setFont(font);
-
-
         confirmButton = new JButton("确认");
         confirmButton.setFont(font);
         cancelButton = new JButton("取消");

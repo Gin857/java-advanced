@@ -21,7 +21,7 @@ public class JoinDemo extends Thread {
     public static void main(String[] args) {
         System.out.println("开始倒数");
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
