@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2f3bf-a956-4021-9307-f78c9ccfca67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread-study/jar/jsoup-1.11.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/img/jd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/img/jd1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/join/TimeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/test/timeTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/week3/JSoupDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-study/src/week3/JSoupDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/jar/beautyeye_lnf.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/join/JoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/join/JoinDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/join/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/join/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/timer/TimerClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/timer/TimerClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/thread-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/thread-study.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +26,10 @@
     <session id="1364232472">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="52" />
+          <entry key="project.closed" value="53" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="1" />
@@ -50,20 +40,20 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="9" />
-          <entry key="project.opened" value="54" />
+          <entry key="project.opened" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="15" />
-          <entry key="JAVA" value="341" />
+          <entry key="JAVA" value="342" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25742" />
-          <entry key="PLAIN_TEXT" value="310" />
+          <entry key="JAVA" value="25759" />
+          <entry key="PLAIN_TEXT" value="334" />
         </counts>
       </usages-collector>
     </session>
@@ -73,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-study/src/join/LoginFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="2268">
               <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-study/src/join/TimeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
+            <state relative-caret-position="1944">
               <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,11 +86,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-study/src/week3/JSoupDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-study/src/week3/JSoupDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-study/src/com/study/TickeThreadTest1.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/study/TicketThreadTest2.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/study/TicketThreadTest3.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/study/CarouseThread.java" />
@@ -181,6 +185,7 @@
         <option value="$PROJECT_DIR$/thread-study/src/join/LoginFrame.java" />
         <option value="$PROJECT_DIR$/thread-study/src/join/TimeDao.java" />
         <option value="$PROJECT_DIR$/thread-study/src/week3/JSoupDemo1.java" />
+        <option value="$PROJECT_DIR$/thread-study/src/week3/JSoupDemo2.java" />
       </list>
     </option>
   </component>
@@ -224,6 +229,17 @@
               <item name="thread-study" type="462c0819:PsiDirectoryNode" />
               <item name="jar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="week3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555540531615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555626047036" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -289,9 +305,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JSoupDemo1">
+  <component name="RunManager" selected="Application.JSoupDemo2">
     <configuration name="JSoupDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.JSoupDemo1" />
+      <module name="thread-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSoupDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.JSoupDemo2" />
       <module name="thread-study" />
       <extension name="coverage">
         <pattern>
@@ -329,19 +358,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timer.TimerClock" />
-      <module name="thread-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="timeTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.timeTest1" />
       <module name="thread-study" />
@@ -357,18 +373,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.JoinDemo" />
-      <item itemvalue="Application.TimerClock" />
       <item itemvalue="Application.TimeDao" />
       <item itemvalue="Application.timeTest1" />
       <item itemvalue="Application.JSoupDemo1" />
+      <item itemvalue="Application.JSoupDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JSoupDemo2" />
         <item itemvalue="Application.JSoupDemo1" />
         <item itemvalue="Application.TimeDao" />
         <item itemvalue="Application.JoinDemo" />
         <item itemvalue="Application.timeTest1" />
-        <item itemvalue="Application.TimerClock" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +451,8 @@
       <workItem from="1555454435924" duration="776000" />
       <workItem from="1555455445224" duration="17000" />
       <workItem from="1555497017190" duration="8125000" />
-      <workItem from="1555539344298" duration="1025000" />
+      <workItem from="1555539344298" duration="1641000" />
+      <workItem from="1555625473018" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1553731912271</created>
@@ -647,16 +664,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555455061606</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="JSoup程序爬取内容">
+      <created>1555540605062</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1555540605062</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196355000" />
+    <option name="totallyTimeSpent" value="197482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -665,7 +690,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.18394649" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.35005575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4960981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -741,20 +766,14 @@
     <MESSAGE value="交通信号灯" />
     <MESSAGE value="组件绘制" />
     <MESSAGE value="join用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="join用法" />
+    <MESSAGE value="JSoup程序爬取内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSoup程序爬取内容" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/BufferedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/io-study/src/com/io/study/BufferedStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -968,9 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,21 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3951">
           <caret line="125" column="39" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="39" />
-          <folding>
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2108#2109#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2740#2741#0" expanded="true" />
-            <element signature="e#2778#2779#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3337#3338#0" expanded="true" />
-            <marker date="1555384674579" expanded="true" signature="2525:2552" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,9 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,12 +1068,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread-study/src/join/LoginFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2268">
           <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2991#2992#0" expanded="true" />
             <element signature="e#3029#3030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-study/src/join/TimeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1087,20 +1095,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/join/TimeDao.java">
+    <entry file="file://$PROJECT_DIR$/thread-study/src/week3/JSoupDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        <state relative-caret-position="323">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/week3/JSoupDemo1.java">
+    <entry file="file://$PROJECT_DIR$/thread-study/src/week3/JSoupDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state>
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
