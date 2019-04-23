@@ -19,16 +19,16 @@ public class JSoupDemo2 {
         File file;
         InputStream inputStream;
         OutputStream outputStream;
-        String url = "https://read.douban.com/ebooks/?dcs=book-nav&dcm=douban";
+        String url = "http://book.douban.com/";
         Connection connection = Jsoup.connect(url);
         Document document = connection.get();
-        Elements elements = document.getElementsByClass("slide-item");
+        Elements elements = document.getElementsByClass("cover");
         System.out.println(elements.size());
         for (Element e:elements){
             Element imgElement = e.child(0).child(0);
             UUID uuid = UUID.randomUUID();
             String imgName = uuid +".jpg";
-            file = new File("D:\\download\\"+imgName);
+            file = new File("D:\\test\\"+imgName);
             URL url1 = new URL(imgElement.attr("src"));
             URLConnection uc = url1.openConnection();
             inputStream = uc.getInputStream();

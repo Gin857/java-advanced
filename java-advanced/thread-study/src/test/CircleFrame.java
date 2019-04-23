@@ -12,14 +12,11 @@ public class CircleFrame extends JFrame {
         setVisible(true);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
-
     public void init(){
         CircleThread circleThread = new CircleThread();
         circleThread.setFrame(this);
         new Thread(circleThread).start();
     }
-
-
     public static void main(String[] args) {
         new CircleFrame();
     }
