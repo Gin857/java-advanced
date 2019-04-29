@@ -13,7 +13,7 @@ import java.net.URL;
 /**
  * 线程土图片查看器
  *
- * @author 徐鹏 侯粤嘉
+ * @author 徐鹏
  * 2019.4.9
  */
 public class ChooserFrame extends JFrame implements ActionListener {
@@ -66,7 +66,6 @@ public class ChooserFrame extends JFrame implements ActionListener {
         progressBar.setIndeterminate(false);
         Thread thread = new Thread() {
             int count = 0;
-
             public void run() {
                 while (true) {
                     progressBar.setValue(++count);
@@ -86,7 +85,7 @@ public class ChooserFrame extends JFrame implements ActionListener {
             }
         };
         thread.start();
-        add(imgPanel);
+//        add(imgPanel);
         btnPanel.add(chooserBtn);
         btnPanel.add(musicBtn);
         btnPanel.add(timeBtn);
@@ -96,7 +95,6 @@ public class ChooserFrame extends JFrame implements ActionListener {
         zonghe1.TimeThread timeThread = new TimeThread();
         timeThread.setTimeLabel(timeLabel);
         timeThread.start();
-
     }
 
     public static void main(String[] args) {
@@ -115,7 +113,6 @@ public class ChooserFrame extends JFrame implements ActionListener {
         if (e.getSource() == musicBtn) {
             music music = new music();
             new Thread(music).start();
-
         }
         if (e.getSource() == timeBtn) {
             this.dispose();
@@ -134,6 +131,7 @@ class music implements Runnable {
                 url = file.toURL();
                 AudioClip audioClip = Applet.newAudioClip(url);
                 audioClip.play();
+                System.out.println();
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }

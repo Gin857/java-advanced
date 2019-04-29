@@ -24,7 +24,7 @@ public class NumFrame extends JFrame implements ActionListener {
         setSize(900,627);
         setLocationRelativeTo(null);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void init() {

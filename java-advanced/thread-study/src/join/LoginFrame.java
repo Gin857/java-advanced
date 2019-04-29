@@ -27,7 +27,7 @@ public class LoginFrame extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public void init(){
-        setLayout(null);
+//        setLayout(null);
         ShadePanel1 shadePanel = new ShadePanel1();
         shadePanel.setLayout(null);
         shadePanel.setBounds(0, 0, width, height);

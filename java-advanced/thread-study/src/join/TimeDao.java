@@ -70,6 +70,7 @@ class Time1 extends Thread implements Runnable {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     System.out.println("1");
+                    System.out.println();
                 }
             }
             try {
@@ -80,6 +81,8 @@ class Time1 extends Thread implements Runnable {
         }
     }
 }
+
+
 
 class ImgPanel1 extends JPanel{
     private String imgPath;

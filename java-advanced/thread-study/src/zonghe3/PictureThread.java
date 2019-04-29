@@ -1,4 +1,4 @@
-package zonghe1;
+package zonghe3;
 
 
 import javax.swing.*;
@@ -7,12 +7,12 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class ChooserThread implements Runnable {
-    private JLabel bgLabel;
+public class PictureThread implements Runnable {
+    private JLabel bgLabel1;
     private JFileChooser fileChooser;
 
-    public void setBgLabel(JLabel bgLabel) {
-        this.bgLabel = bgLabel;
+    public void setBgLabel(JLabel bgLabel1) {
+        this.bgLabel1 = bgLabel1;
     }
 
     @Override
@@ -25,8 +25,7 @@ public class ChooserThread implements Runnable {
             //获取选中的所有文件
             File[] files = fileChooser.getSelectedFiles();
             int i = 0;
-            int len = files.length - 1;
-            System.out.println();
+            int len = files.length;
             while (true) {
                 try {
                     //通过路径选择构建File对象
@@ -35,8 +34,8 @@ public class ChooserThread implements Runnable {
                     byte[] bytes = new byte[(int) file.length()];
                     inputStream.read(bytes);
                     Icon icon = new ImageIcon(bytes);
-                    bgLabel.setIcon(icon);
-                    System.out.println();
+                    bgLabel1.setIcon(icon);
+//                    System.out.println(icon);
                     try {
                         Thread.sleep(3000);
                     } catch (InterruptedException e) {
