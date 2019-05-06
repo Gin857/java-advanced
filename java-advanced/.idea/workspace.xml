@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2f3bf-a956-4021-9307-f78c9ccfca67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/socket-study/socket-study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/GreetingClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/GreetingServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/week1/Client1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/week1/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/week1/Server1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/week1/Server2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wed/src/weekdaka/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/wed/src/weekdaka/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wed/src/weekdaka/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/wed/src/weekdaka/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket-study/src/week1/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/week1/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket-study/src/week1/Server2.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/week1/Server2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +15,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/java_advanced$CarouseFrame.ic" NAME="CarouseFrame Coverage Results" MODIFIED="1554776206466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.study.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_advanced$Client2.ic" NAME="Client2 Coverage Results" MODIFIED="1557151301643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>week1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_advanced$ChooserFrame.ic" NAME="ChooserFrame Coverage Results" MODIFIED="1554824310044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>zonghe1.*</FILTER>
@@ -35,7 +30,7 @@
     <session id="1364232472">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="72" />
+          <entry key="project.closed" value="73" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="11" />
@@ -48,34 +43,34 @@
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="10" />
-          <entry key="project.open.time.8" value="13" />
-          <entry key="project.open.time.9" value="12" />
-          <entry key="project.opened" value="75" />
+          <entry key="project.open.time.8" value="14" />
+          <entry key="project.open.time.9" value="13" />
+          <entry key="project.opened" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="15" />
-          <entry key="JAVA" value="506" />
+          <entry key="JAVA" value="508" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="41727" />
-          <entry key="PLAIN_TEXT" value="364" />
+          <entry key="JAVA" value="41821" />
+          <entry key="PLAIN_TEXT" value="365" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socket-study/src/week1/Client2.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/week1/Server2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="511">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket-study/src/week1/Server2.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/week1/Client2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="403">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,10 +153,10 @@
         <option value="$PROJECT_DIR$/wed/src/weekdaka/Client.java" />
         <option value="$PROJECT_DIR$/socket-study/src/week1/Client1.java" />
         <option value="$PROJECT_DIR$/socket-study/src/week1/Server1.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/week1/Server2.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/week1/Client2.java" />
         <option value="$PROJECT_DIR$/socket-study/src/test/GreetingClient.java" />
         <option value="$PROJECT_DIR$/socket-study/src/test/GreetingServer.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/week1/Server2.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/week1/Client2.java" />
       </list>
     </option>
   </component>
@@ -228,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557151128694" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557180503975" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -452,6 +447,8 @@
       <workItem from="1557127176387" duration="5020000" />
       <workItem from="1557136018101" duration="2459000" />
       <workItem from="1557139809919" duration="4047000" />
+      <workItem from="1557151081906" duration="1164000" />
+      <workItem from="1557180207204" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1553731912271</created>
@@ -712,16 +709,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557096737149</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="java网络编程（1）">
+      <created>1557151192993</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1557151192993</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324194000" />
+    <option name="totallyTimeSpent" value="325606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118336886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120469086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -730,7 +735,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3121516" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.40691194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4960981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -740,7 +745,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3277592" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50278705" side_tool="true" visible="true" weight="0.048507463" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50278705" side_tool="true" weight="0.048507463" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.49721295" weight="0.048507463" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -811,7 +816,8 @@
     <MESSAGE value="期中作业提交" />
     <MESSAGE value="文档移动" />
     <MESSAGE value="java网络编程（一）" />
-    <option name="LAST_COMMIT_MESSAGE" value="java网络编程（一）" />
+    <MESSAGE value="java网络编程（1）" />
+    <option name="LAST_COMMIT_MESSAGE" value="java网络编程（1）" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1137,9 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,6 +1150,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/test/GreetingServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/test/GreetingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/week1/Client2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1155,38 +1179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socket-study/src/week1/Server2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/GreetingServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/GreetingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/week1/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="511">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
