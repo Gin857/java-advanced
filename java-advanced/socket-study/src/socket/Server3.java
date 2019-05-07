@@ -6,6 +6,9 @@ import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * 发送消息给客户端的服务器端口
+ */
 public class Server3 {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(10086);
