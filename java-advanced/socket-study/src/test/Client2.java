@@ -11,13 +11,14 @@ import java.util.Scanner;
  */
 public class Client2 {
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("192.168.43.73",2323);
+        Socket socket = new Socket("127.0.0.1",2323);
         OutputStream out = socket.getOutputStream();
         Scanner scanner = new Scanner(System.in);
         while (true){
             System.out.println("请输入要发给服务器的内容:");
             String info  = scanner.nextLine();
             out.write(info.getBytes());
+            System.out.println();
             InputStream in = socket.getInputStream();
             byte[] b = new byte[1024];
             in.read(b);

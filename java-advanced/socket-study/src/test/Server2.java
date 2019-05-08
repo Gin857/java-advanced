@@ -20,14 +20,13 @@ public class Server2 {
             in = socket.getInputStream();
             byte[] b = new byte[1024];
             in.read(b);
+            System.out.println();
             System.out.println("客户端"+socket.getInetAddress()+"发送的数据是："+new String(b));
             OutputStream out = socket.getOutputStream();
             Scanner scanner = new Scanner(System.in);
-            System.out.println("请输入要发给服务器的内容:");
+            System.out.println("请输入要发给客户端的内容:");
             String info  = scanner.nextLine();
             out.write(info.getBytes());
         }
-
-
     }
 }

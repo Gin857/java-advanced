@@ -148,8 +148,6 @@ public class BookFrame extends JFrame implements ActionListener {
                 MyJDialog dialog = new MyJDialog(BookFrame.this);
                 dialog.setVisible(true);
                 jLabel00 = new JLabel("查看了《鸟类的天赋》");
-
-
             }
         });
         downBtn.addActionListener(new ActionListener() {

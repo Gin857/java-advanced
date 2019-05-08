@@ -6,7 +6,8 @@ import java.net.Socket;
 
 public class Client1 {
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("10.40.153.18",10086);
+        Socket socket = new Socket("127.0.0.1",10086);
+        System.out.println("连接上服务器");
         InputStream in = socket.getInputStream();
         byte[] bytes = new byte[1024];
         in.read(bytes);
