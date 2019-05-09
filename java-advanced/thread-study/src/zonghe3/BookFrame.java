@@ -527,6 +527,7 @@ public class BookFrame extends JFrame implements ActionListener {
         //系统时间代码块
         timeLabel = new JLabel();
         timeLabel.setFont(timeFont);
+
         TimeThread3 timeThread = new TimeThread3();
         timeThread.setTimeLabel(timeLabel);
         timeThread.start();
