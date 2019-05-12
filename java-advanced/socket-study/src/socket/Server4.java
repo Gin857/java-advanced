@@ -43,7 +43,6 @@ class ServerThread4 implements Runnable {
             //关闭各种流
             inputStream.close();
             outputStream.close();
-            socket.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
