@@ -7,26 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aef2f3bf-a956-4021-9307-f78c9ccfca67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/gui_form_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/gui-form.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/group/ClientFrame1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/group/ServerFrame1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/down/ClientFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/down/ClientFrame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/down/ServerFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/down/ServerFrame2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Music.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQMusic.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/a3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/a5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/a6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/b9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/bofang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/lunbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/socket/URLDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket-study/src/group/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/group/ClientFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket-study/src/group/ServerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/group/ServerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket-study/src/socket/Client3.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/socket/Client3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket-study/src/socket/Client4.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/socket/Client4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket-study/src/socket/Server4.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/socket/Server4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +59,10 @@
     <session id="1364232472">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="84" />
+          <entry key="project.closed" value="85" />
           <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="12" />
+          <entry key="project.open.time.10" value="13" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="1" />
@@ -63,25 +70,25 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="11" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="12" />
           <entry key="project.open.time.8" value="15" />
           <entry key="project.open.time.9" value="14" />
-          <entry key="project.opened" value="90" />
+          <entry key="project.opened" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="GUI_DESIGNER_FORM" value="3" />
+          <entry key="GUI_DESIGNER_FORM" value="7" />
           <entry key="Image" value="15" />
-          <entry key="JAVA" value="638" />
+          <entry key="JAVA" value="645" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48806" />
-          <entry key="PLAIN_TEXT" value="381" />
+          <entry key="JAVA" value="49138" />
+          <entry key="PLAIN_TEXT" value="404" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -90,20 +97,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.java">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/socket/URLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="648">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.form">
-          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -122,11 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-study/src/zonghe1/ChooserThread.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/zonghe3/PictureThread.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/zonghe3/TimeThread3.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/zonghe1/ChooserFrame.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/zonghe3/ActionTime.java" />
         <option value="$PROJECT_DIR$/thread-study/src/test/TimerFrame.java" />
         <option value="$PROJECT_DIR$/thread-study/src/week3/JSoupDemo1.java" />
         <option value="$PROJECT_DIR$/thread-study/src/join/TimeDao.java" />
@@ -173,6 +170,11 @@
         <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimlLoginFrame.form" />
         <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.form" />
         <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.java" />
+        <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Music.java" />
+        <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Music.form" />
+        <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQMusic.java" />
+        <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQMusic.form" />
+        <option value="$PROJECT_DIR$/socket-study/src/socket/URLDemo.java" />
       </list>
     </option>
   </component>
@@ -211,43 +213,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
+              <item name="socket-study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
+              <item name="socket-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
+              <item name="socket-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="wxLogin" type="e9f4de52:FormNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="142" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="251" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557704781297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557785665626" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -304,13 +301,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.wxLogin">
-    <configuration name="ClientFrame1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group.ClientFrame1" />
-      <module name="socket-study" />
+  <component name="RunManager" selected="Application.URLDemo">
+    <configuration name="Music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.Music" />
+      <module name="gui-form" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="group.*" />
+          <option name="PATTERN" value="com.soft1841.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,25 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket.Server3" />
-      <module name="socket-study" />
+    <configuration name="QQMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.QQMusic" />
+      <module name="gui-form" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerFrame1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group.ServerFrame1" />
-      <module name="socket-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="group.*" />
+          <option name="PATTERN" value="com.soft1841.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,6 +334,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.soft1841.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.URLDemo" />
+      <module name="socket-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,19 +368,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ServerFrame1" />
-      <item itemvalue="Application.ClientFrame1" />
-      <item itemvalue="Application.Server3" />
       <item itemvalue="Application.TimlLoginFrame" />
       <item itemvalue="Application.wxLogin" />
+      <item itemvalue="Application.Music" />
+      <item itemvalue="Application.QQMusic" />
+      <item itemvalue="Application.URLDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URLDemo" />
+        <item itemvalue="Application.QQMusic" />
+        <item itemvalue="Application.Music" />
         <item itemvalue="Application.wxLogin" />
         <item itemvalue="Application.TimlLoginFrame" />
-        <item itemvalue="Application.ClientFrame1" />
-        <item itemvalue="Application.ServerFrame1" />
-        <item itemvalue="Application.Server3" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +483,10 @@
       <workItem from="1557444481929" duration="63000" />
       <workItem from="1557460512649" duration="18439000" />
       <workItem from="1557493404086" duration="3613000" />
-      <workItem from="1557699815214" duration="5174000" />
+      <workItem from="1557699815214" duration="5233000" />
+      <workItem from="1557731326655" duration="5353000" />
+      <workItem from="1557742127815" duration="3202000" />
+      <workItem from="1557755031643" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1553731912271</created>
@@ -796,17 +796,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557441934640</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="GUI Form 制作窗体并打包">
+      <created>1557705112478</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1557705112478</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="387135000" />
+    <option name="totallyTimeSpent" value="396745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -815,7 +822,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.41025642" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.057971016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4960981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -827,7 +834,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
       <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50278705" side_tool="true" weight="0.048507463" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.49721295" visible="true" weight="0.048507463" />
+      <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.49721295" visible="true" weight="0.042110875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -875,7 +882,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="盒子布局" />
     <MESSAGE value="文件输出" />
     <MESSAGE value="卡片布局" />
     <MESSAGE value="changing and comprehensive ,Please" />
@@ -900,48 +906,14 @@
     <MESSAGE value="java网络编程（3）" />
     <MESSAGE value="java网络编程（4）" />
     <MESSAGE value="java网络编程（5）" />
-    <option name="LAST_COMMIT_MESSAGE" value="java网络编程（5）" />
+    <MESSAGE value="GUI Form 制作窗体并打包" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI Form 制作窗体并打包" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread-study/src/timer/M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/timer/TimerFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="94" column="38" lean-forward="true" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/join/TimeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/zonghe3/ActionTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="28" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/zonghe3/ShareJD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="30" column="27" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread-study/src/week3/JSoupDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1220,10 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,23 +1202,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimlLoginFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimlLoginFrame.form">
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimlLoginFrame.java" />
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimlLoginFrame.form" />
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.form">
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Music.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/wxLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="504">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQMusic.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/socket/URLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
