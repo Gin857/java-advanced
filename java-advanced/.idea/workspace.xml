@@ -7,10 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aef2f3bf-a956-4021-9307-f78c9ccfca67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week3/AdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week3/Sports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week3/Study.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week4/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week4/RealSunject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week4/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp-study/src/com/study/week4/proxyPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jdbc-study/target/" />
@@ -38,11 +38,11 @@
     <session id="1364232472">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="102" />
-          <entry key="project.open.time.0" value="16" />
+          <entry key="project.closed" value="105" />
+          <entry key="project.open.time.0" value="17" />
           <entry key="project.open.time.1" value="7" />
-          <entry key="project.open.time.10" value="14" />
-          <entry key="project.open.time.11" value="5" />
+          <entry key="project.open.time.10" value="15" />
+          <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
@@ -53,22 +53,22 @@
           <entry key="project.open.time.7" value="14" />
           <entry key="project.open.time.8" value="16" />
           <entry key="project.open.time.9" value="14" />
-          <entry key="project.opened" value="110" />
+          <entry key="project.opened" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="9" />
           <entry key="Image" value="15" />
-          <entry key="JAVA" value="666" />
+          <entry key="JAVA" value="670" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="50905" />
-          <entry key="PLAIN_TEXT" value="460" />
+          <entry key="JAVA" value="51063" />
+          <entry key="PLAIN_TEXT" value="465" />
           <entry key="RegExp" value="1" />
           <entry key="XML" value="141" />
         </counts>
@@ -77,19 +77,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week3/AdapterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="252">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/RealSunject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding>
-                <element signature="e#166#279#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/proxyPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -121,10 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/socket-study/src/test/Server1.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/test/ServerThread1.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/socket/Client.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/socket/Server.java" />
         <option value="$PROJECT_DIR$/socket-study/src/socket/Client2.java" />
         <option value="$PROJECT_DIR$/socket-study/src/socket/Server3.java" />
         <option value="$PROJECT_DIR$/socket-study/src/socket/Server2.java" />
@@ -172,6 +204,10 @@
         <option value="$PROJECT_DIR$/dp-study/src/com/study/week3/Sports.java" />
         <option value="$PROJECT_DIR$/dp-study/src/com/study/week3/Student.java" />
         <option value="$PROJECT_DIR$/dp-study/src/com/study/week3/AdapterTest.java" />
+        <option value="$PROJECT_DIR$/dp-study/src/com/study/week4/Subject.java" />
+        <option value="$PROJECT_DIR$/dp-study/src/com/study/week4/RealSunject.java" />
+        <option value="$PROJECT_DIR$/dp-study/src/com/study/week4/Proxy.java" />
+        <option value="$PROJECT_DIR$/dp-study/src/com/study/week4/proxyPattern.java" />
       </list>
     </option>
   </component>
@@ -231,7 +267,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +296,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +304,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="251" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558477351949" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558563072624" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -325,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdapterTest">
+  <component name="RunManager" selected="Application.proxyPattern">
     <configuration name="AdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.week3.AdapterTest" />
       <module name="dp-study" />
@@ -345,19 +381,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo3" />
-      <module name="jdbc-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,20 +414,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="proxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.week4.proxyPattern" />
+      <module name="dp-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.JDBCDemo3" />
       <item itemvalue="Application.JDBCDemo4" />
       <item itemvalue="Application.SingLetonTest" />
       <item itemvalue="Application.FactoryTest" />
       <item itemvalue="Application.AdapterTest" />
+      <item itemvalue="Application.proxyPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.proxyPattern" />
         <item itemvalue="Application.AdapterTest" />
         <item itemvalue="Application.FactoryTest" />
         <item itemvalue="Application.SingLetonTest" />
         <item itemvalue="Application.JDBCDemo4" />
-        <item itemvalue="Application.JDBCDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -527,14 +563,10 @@
       <workItem from="1558390019385" duration="1577000" />
       <workItem from="1558395355568" duration="25000" />
       <workItem from="1558418619493" duration="682000" />
-      <workItem from="1558476512020" duration="777000" />
-    </task>
-    <task id="LOCAL-00003" summary="文件输出">
-      <created>1554069533454</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1554069533454</updated>
+      <workItem from="1558476512020" duration="1535000" />
+      <workItem from="1558478872999" duration="58000" />
+      <workItem from="1558500669642" duration="67000" />
+      <workItem from="1558562624037" duration="396000" />
     </task>
     <task id="LOCAL-00004" summary="卡片布局">
       <created>1554130477727</created>
@@ -872,17 +904,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558390451771</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="适配器模式">
+      <created>1558477379044</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1558477379044</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409219000" />
+    <option name="totallyTimeSpent" value="410498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -891,7 +930,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.38684505" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.2664437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4960981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -951,7 +990,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="继承Thread类与继承Runnable类" />
     <MESSAGE value="线程" />
     <MESSAGE value="绘线" />
     <MESSAGE value="绘制图像" />
@@ -976,35 +1014,14 @@
     <MESSAGE value="JDBC起步练习(三)数据的更新与删除" />
     <MESSAGE value="&#10;单例模式" />
     <MESSAGE value="工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
+    <MESSAGE value="适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread-study/src/zonghe3/NorthPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/zonghe3/PictureThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/group/ServerThreada.java" />
-    <entry file="file://$PROJECT_DIR$/socket-study/src/socket/UDPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket-study/src/socket/UDPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -1296,6 +1313,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week3/AdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week3/Sports.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1303,18 +1327,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week3/AdapterTest.java">
+    <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="108">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/RealSunject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <element signature="e#166#279#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp-study/src/com/study/week4/proxyPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
